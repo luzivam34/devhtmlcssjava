@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Classificação - Brasileirão 2025</title>
-    <link rel="stylesheet" href="/static/css/index.css"> <!-- Link para o arquivo CSS -->
-    <script src="/static/js/index.js" defer></script> <!-- Link para o arquivo JavaScript -->
+    <link rel="stylesheet" href="../static/css/index.css"> <!-- Link para o arquivo CSS -->
+     <!-- Link para o arquivo JavaScript -->
 </head>
 <body>
     <!-- Cabeçario -->
     <header>
-        <img src="../static/img/logo.png" alt="Logotipo do site"><h1>Campeonato Brasileiro 2025</h1>
+        <img src="../static/img/brasileirao.png" alt="Logotipo do site"><h1>Campeonato Brasileiro 2025</h1>
         <!-- Início do menu -->
         <nav>
             <ul>
                 <li><a href="index.html">Início</a></li>
-                <li><a href="classificacao.html">Classificação</a></li>
+                <li><a href="classificacao.html" class="ativo">Classificação</a></li>
                 <li><a href="jogos.html">Jogos</a></li>
                 <li><a href="noticias.html">Notícias</a></li>
             </ul>
@@ -27,19 +27,19 @@
     <main>
         <section>
             <h2>Classificação do Brasileirão 2025</h2>
-            <table>
+            <table id="tabela">
                 <thead>
                     <tr>
-                        <th>Posição</th>
+                        <th>Pos</th>
                         <th>Time</th>
-                        <th>Pontos</th>
-                        <th>Jogos</th>
-                        <th>Vitórias</th>
-                        <th>Empates</th>
-                        <th>Derrotas</th>
-                        <th>Gols Pró</th>
-                        <th>Gols Contra</th>
-                        <th>Saldo de Gols</th>
+                        <th>Pts</th>
+                        <th>J</th>
+                        <th>V</th>
+                        <th>E</th>
+                        <th>D</th>
+                        <th>GP</th>
+                        <th>GC</th>
+                        <th>SG</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -292,3 +292,7 @@
     <footer>
         <p>&copy; 2025 - site do Brasileirão. Todos os direitos reservados.</p>
     </footer>
+    <script src="../static/js/index.js"></script>
+    <!-- Link para o arquivo JavaScript -->
+</body>
+</html>
